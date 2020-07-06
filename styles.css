@@ -1,0 +1,120 @@
+body {
+  background-color: #438a5e;
+  font-family: 'Pangolin', cursive;
+}
+
+.btn {
+  font-family: 'Pangolin', cursive;
+  text-align: center;
+  /* margin-left: 30px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: #96bb7c;
+  color:white;
+}
+
+.movie-title {
+  color: #f4f6ff;
+}
+
+.movie-img {
+  width: 140px;
+  height: 140px;
+}
+
+/* navigation Bar */
+.nav-link {
+  color: #f7f7f7;
+  /* padding: 5px 10px 5px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-brand {
+  color: #f7f7f7;
+}
+
+.navbar {
+  background-color: #438a5e;
+  padding: 10px 10px;
+  font-size: 1rem;
+}
+
+/* .container-fluid {
+  padding: 7% 15%;
+}
+ */
+/* media query */
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+  /* width: auto; */
+}
+
+/* display 3*/
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+.carousel-control-prev{
+    /* padding: 20px 30px; */
+    top: 50%;
+}
+.carousel-control-next{
+  /* padding: 20px 30px; */
+  top:50%;
+}
+.container {
+  padding: 10px;
+  width: 540px;
+  margin-left: initial;
+}
+
+#carosel-section {
+  width: 750px;
+  padding: 10px;
+  margin: auto;
+}
+
+.movie-card {
+  height:300px;
+  width: 200px;
+  padding: 20px;
+
+  /* align-items: center; */
+  /* margin-left: 30px; */
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
